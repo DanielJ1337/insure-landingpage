@@ -299,18 +299,24 @@ footer hr {
 
 @media screen and (min-width: 1024px) {
         .navigation{
-            width: 83%;
+            width: 1200px;
             margin: auto;
         }
 
     .hero-picture{
-        width: 450px;
+        width: 400px;
+        margin-right: 8rem;
     }
 
     .hero-section__container{
         width:80%;
         margin-left: 10rem;
         margin-top: 5rem;
+    }
+
+    .hero-section__main-heading{
+        font-size: 5.5rem;
+        width: 90%;
     }
 
     .main-content{
@@ -339,6 +345,14 @@ footer hr {
         font-size: 4rem;
     }
 } 
+
+@media screen and (min-width: 1200px) {
+
+    
+
+
+}
+
 /* 
 .navigation{
     padding: 20px 0 ; 
